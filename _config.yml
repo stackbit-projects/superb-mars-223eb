@@ -1,0 +1,33 @@
+destination: ./_site
+lsi: false
+port: 4000
+highligher: true
+markdown: rdiscount
+rdiscount:
+  extensions:
+    - smart
+BASE_PATH: 'http://meliodus.github.io/'
+title: talk2ankan<small>Introvert Geek Diaries</small>
+collections:
+  - category
+  - social
+permalink: '/:title'
+author:
+  name: Ankan Biswas
+  role: Computer Programmer
+  email: meliodus@tutanota.com
+  image: images/ankan.png
+  github: meliodus
+  twitter: talk2ankan
+  facebook: talk2ankan
+  soundcloud: meliodus
+  reddit: talk2ankan
+  about: >-
+    Salutation, this is my-space my-world. I dream , i hallucinate, i am curious
+    and ambitious.
+  copyright: Some rights reserved &#169; 2015 Ankan Biswas.
+safe: false
+gems:
+  - jekyll-sitemap
+baseurl: ''
+url: ''
